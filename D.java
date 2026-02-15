@@ -1,3 +1,5 @@
+//7. Reverse Integer
+
 public class D {
     public int reverse(int x) {
         int rev = 0;
@@ -8,7 +10,7 @@ public class D {
                 rev < Integer.MIN_VALUE / 10) {
                 return 0;
             }
-        rev = rev * 10 + digit;
+        rev = rev * 10 + digit; 
         x = x/10;            
         }
         return rev;

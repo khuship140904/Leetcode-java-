@@ -1,3 +1,5 @@
+//9. Palindrome Number
+
 public class C {
     public boolean isPalindrome(int x) {
     boolean flag=false;
