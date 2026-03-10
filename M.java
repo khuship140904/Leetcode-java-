@@ -9,5 +9,6 @@ public class M{
         list.add(30);
 
         System.err.println(list);
-    }
+
+        System.out.println(list.get(0));    }
 }
