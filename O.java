@@ -1,5 +1,5 @@
 //53 Maximum subarray
 
-public class N {
+public class O{
     
 }
