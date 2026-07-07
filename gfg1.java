@@ -1,3 +1,5 @@
+//second largest
+
 public class gfg1 {
     public int getSecondLargest(int[] arr) {
         int largest = arr[0];
