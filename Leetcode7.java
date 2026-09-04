@@ -1,14 +1,20 @@
+import java.util.HashMap;
+
 public class Leetcode7 {
     public int findDuplicate(int[] nums) {
-        for (int i = 0 ; i< nums.length ; i++){
-            for (int j = i+1 ; j<nums.length ; j++){
-                if(nums[i]==nums[j]){
-                        return nums[i];
-                }
-               
+        HashMap<Integer, Integer> map = new HashMap<>();
+
+        for(int i = 0 ; i<nums.length ; i++){
+            if(map.containsKey(nums[i])){
+                return nums[i];
+            }else{
+                map.put(nums[i],1);
             }
+
         }
         return -1;
+
+
     }
     
 }
